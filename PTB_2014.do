@@ -6,12 +6,6 @@ clear
 
 capture log close
 
-cd "/Users/billyswartwout/Dropbox (Princeton)/Swartwout_Hamilton/Data Sets"
-
-log using ptb_latinx_birthplace_billy,text replace
-
-use "/Users/billyswartwout/Dropbox (Princeton)/Swartwout_Hamilton/Data Sets/LKBC2014USDenom_plus.AllCnty.dta", clear
-
 keep dob_yy mager41 mager9 fagerec11 dmar meduc feduc sex mracehisp mbstate mbstate_rec ostate mrstatepstl mbcntry mrcntry precare5 bwtr14 lbo_rec gestrec10 flgnd ager5 ager22
 
 // To Discuss: 
