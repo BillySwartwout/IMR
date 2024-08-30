@@ -1,15 +1,7 @@
 
 capture log close
 
-local directory "thamilton/Dropbox"
-
-*billyswartwout/Dropbox (Princeton)
-
-cd "/Users/billyswartwout/Dropbox (Princeton)/Swartwout_Hamilton/Data Sets"
-
 log using 2014_2015_table1_recreation_billy.txt, text replace
-
-use "/Users/billyswartwout/Dropbox (Princeton)/Swartwout_Hamilton/Data Sets/LKBC2014_15appendedUSDenom_plus.AllCnty.dta"
 
 local infant_mortality "newinfantmort newneonatalmort newpostneonatalmort"
 local maternal_edu "m_nonhsgrad m_hsgrad m_assocdeg m_bachdeg m_mastdeg m_docdeg"
