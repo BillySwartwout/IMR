@@ -7,9 +7,6 @@ clear
 capture log close //creates a log file, will close at the last line of code
 *cd "Z:\Preterm_Birth\"
 
-
-cd "/Volumes/Hamilton/Preterm_Birth/Vital Statisticss (2018 and 2019)/Tod's Analysis"
-
 log using ptb_latinx_birthplace_tables,text replace
 
 use ptb_makevars_4_9_2022.dta
